@@ -17,7 +17,11 @@ class Pluralize extends Twig_Extension
 		];
 	}
 
-	public function getPluralizedString($count, $before == null, $after) {
+	public function getPluralizedString($count, $before, $after = null) {
+		if (is_null($after)) {
+			$after = $before;
+			$before = null;
+		}
 		if (!is_numeric($count)) {
 			throw new Exception('$count must be numeric.');
 		}
