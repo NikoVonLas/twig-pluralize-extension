@@ -1,6 +1,6 @@
 {
-  "name": "vanpattenmedia/twig-pluralize-extension",
-  "description": "Twig extension to output correctly pluralized strings",
+  "name": "nikovonlas/twig-pluralize-extension",
+  "description": "Twig extension to output correctly pluralized strings for Russian language",
   "keywords": ["twig extension", "plural", "twig"],
   "type": "library",
   "license": "BSD-3-Clause",
@@ -8,14 +8,18 @@
     "php": ">=5.4.0",
     "twig/twig": ">=v1.0.0"
   },
-  "homepage": "https://www.vanpattenmedia.com/",
+  "homepage": "https://www.antiit.ru/",
   "authors": [
     {
       "name": "Chris Van Patten",
       "homepage": "http://www.chrisvanpatten.com/"
+    },
+    {
+      "name": "NikoVonLas",
+      "homepage": "https://www.antiit.ru/"
     }
   ],
   "autoload": {
-    "psr-4": { "VanPattenMedia\\Twig\\": "src/" }
+    "psr-4": { "NikoVonLas\\Twig\\": "src/" }
   }
 }
