@@ -1,5 +1,4 @@
 <?php
-
 namespace NikoVonLas\Twig;
 
 use Twig_Extension;
